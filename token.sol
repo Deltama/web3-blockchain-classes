@@ -14,7 +14,8 @@ interface ERC20Interface{
     event Transfer(address indexed from, address indexed to, uint tokens);
     event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
 }
- 
+
+
 //Actual token contract 
 contract DIOToken is ERC20Interface{
     string public symbol = "DIO" ;
